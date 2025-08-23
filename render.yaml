@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: portfolioapp
+    env: docker
+    plan: free
+    branch: main
+    autoDeploy: true
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: Sharan
+          property: connectionString
+
+databases:
+  - name: portfolio-db
+    plan: free
