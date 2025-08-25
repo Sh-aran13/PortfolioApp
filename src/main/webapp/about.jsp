@@ -88,6 +88,11 @@
             font-size:25px;
         }
 
+        /* This CSS rule is added to align the paragraph text to the left */
+        .about-container p {
+            text-align: left;
+        }
+
         .profile-pic {
             width: 275px;
             height: 275px;
@@ -148,15 +153,16 @@
     <div class="about-container">
         <h1>About Me</h1>
         <img src="images/profile.JPG" alt="Profile Picture" class="profile-pic">
-        <p>Hello! I am <strong>Allada Sai Satya Sharan</strong><br>I’m a recent Computer Science graduate and a passionate web developer.<br> My journey began in college, where I developed my skills in HTML, CSS, JavaScript, and frameworks like React and Bootstrap.<br>
-
-        I have worked on projects, including a fully functional e-commerce website, where I focused on both front-end design and back-end functionality.<br> I believe in writing clean, maintainable code and enjoy collaborating with teams to bring ideas to life.<br>
-
-        I’m eager to stay updated with the latest web development trends and continuously improve my skills.<br> I look forward to the opportunity to contribute to innovative projects while growing as a developer. Thank you for considering my portfolio!</p>
+        <p>Hello! I am <strong>Allada Sai Satya Sharan</strong>I’m a recent Computer Science graduate and a passionate web developer.My journey began in college, where I developed my skills in HTML, CSS, JavaScript, and frameworks like React and Bootstrap.
+        I have worked on projects, including a fully functional e-commerce website, where I focused on both front-end design and back-end functionality.I believe in writing clean, maintainable code and enjoy collaborating with teams to bring ideas to life.
+        I’m eager to stay updated with the latest web development trends and continuously improve my skills.I look forward to the opportunity to contribute to innovative projects while growing as a developer. Thank you for considering my portfolio!</p>
 
         <div class="social-icons">
             <a href="https://www.linkedin.com/in/sai-satya-sharan-allada-3412752b7/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
             <a href="https://www.instagram.com/sharanallada4" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/Sh-aran13" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://wa.me/+918074328850" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://t.me/Sharanallada" target="_blank" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
         </div>
     </div>
 </body>

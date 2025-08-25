@@ -182,7 +182,7 @@
     <!-- 🌟 Navbar -->
     <nav>
         <ul>
-            <li><a href="${pageContext.request.contextPath}/home.jsp">Home</a></li>
+            <li><a href="${pageContext.request.contextPath}/index.jsp">Home</a></li>
             <li><a href="${pageContext.request.contextPath}/about.jsp">About Me</a></li>
             <li><a href="${pageContext.request.contextPath}/resume.jsp">Resume</a></li>
             <li><a href="${pageContext.request.contextPath}/contact.jsp">Contact</a></li>
