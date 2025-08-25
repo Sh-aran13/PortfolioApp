@@ -44,4 +44,4 @@ PortfolioApp/
 
 ```
 
-👨‍💻 **Author:** Sharan  
+👨‍💻 **Author:** Sai Satya Sharan Allada
